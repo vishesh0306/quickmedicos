@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quickmedicos/utils/colorsconst.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -10,6 +11,13 @@ class SignInScreen extends StatefulWidget {
 class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    final size = MediaQuery.of(context).size;
+    return SafeArea(
+        child: Scaffold(
+      backgroundColor: lightBackgroundColor,
+      body: Column(
+        children: [],
+      ),
+    ));
   }
 }
